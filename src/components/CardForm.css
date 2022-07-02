@@ -1,0 +1,25 @@
+.cardForm {
+	text-align: left;
+	border: 0px solid blue;
+	width: 100%;
+}
+.field {
+	border: 0px solid black;
+	padding-left: 100px;
+	padding-top: 20px;
+	width: 100px;
+}
+.text {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 300px;
+	height: 12px;
+}
+.button {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	
+	width: 200px;
+	height: 40px;
+	text-align: center;
+}
