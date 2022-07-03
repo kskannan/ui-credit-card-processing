@@ -1,0 +1,20 @@
+.cardList{
+	align-content: center;
+}
+.cardTable {
+	width: 90%;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.tableHeader {
+	text-align: left;
+	padding: 10px 10px 10px 10px;
+	background: #81b1fc;
+	font-weight: bold;
+}
+.cardRow {
+	text-align: left;
+	padding: 10px 10px 10px 10px;
+	background: #e8effa;
+}
