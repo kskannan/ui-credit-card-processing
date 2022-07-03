@@ -4,8 +4,12 @@
 }
 .field {
 	padding-left: 100px;
-	padding-top: 20px;
-	width: 100px;
+	padding-top: 10px;
+	width: 200px;
+}
+.heading {
+	padding-left: 100px;
+	padding-top: 10px;
 }
 .text {
 	padding-top: 10px;
@@ -22,6 +26,6 @@
 	text-align: center;
 }
 .invalid {
-	text-align: center;
 	color: #fa3025;
+	font-weight: 500;
 }

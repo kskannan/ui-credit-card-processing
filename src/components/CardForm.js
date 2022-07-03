@@ -37,6 +37,7 @@ const handleCardSubmit = (event) => {
 
 	return (
 		<div className="cardForm">
+			<div className="heading"><h2>Credit Card System</h2></div>
 			<form>
 			<div className="field">
 				<label>Name:
@@ -48,8 +49,11 @@ const handleCardSubmit = (event) => {
 				<label>Card Number:
 					<input type="text" name="cardNumber" className="text"
 					onChange={(e) => setCardNumber(e.target.value)}/>	
+					<span className="invalid">{error}</span>
 				</label>
+				
 			</div>
+			
 			<div className="field">
 				<label>Card Limit:
 					<input type="text" name="cardLimit" className="text"
@@ -63,7 +67,6 @@ const handleCardSubmit = (event) => {
 				/>
 			</div>
 			</form>
-			<p className="invalid"><b>{error}</b></p>
 		</div>
 	);
 }

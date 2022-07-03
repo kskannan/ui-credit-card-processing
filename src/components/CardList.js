@@ -2,6 +2,7 @@ import './CardList.css';
 const CardList = (props) => {	
 	return(
 	<div className='cardList'>
+		<h2>Existing Cards</h2>
 		<table className="cardTable">
 			<thead>
 				<tr>
